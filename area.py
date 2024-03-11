@@ -1,7 +1,9 @@
-def calculate_area(length,width):
+def area(length,width):
     return length * width
-length=float(input("Enter the lenght of the rectangle: "))
-width=float(input("Enter the width of the rectangle: "))
 
-area=calculate_area(5,4)
-print("Area of the rectangle:",area)
+
+length = int(input("Enter the values of length: "))
+width = int(input("Enter the values of width: "))
+
+result =area(length,width)
+print(f"the area of the rect- {result}")
